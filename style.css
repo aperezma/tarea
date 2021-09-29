@@ -18,6 +18,7 @@
   height: 170px;
   border-radius: 50%;
   border: 1px solid grey;
+  box-shadow: black 5px;
 }
 .all{
   display: flex;
@@ -32,6 +33,7 @@
   color: black;
   margin-top: 0em;
   margin-bottom: 0em;
+
 }
 #izquierda{
   display: block;
@@ -61,6 +63,7 @@ body{
   font-style: normal;
   font-family: Arial;
   letter-spacing: 0.2px;
+
 }
 h4{
   margin-left: 5px;
@@ -79,6 +82,7 @@ li{
   margin-left: 5px;
 }
 
+
 .fondo{
   background-color: #5d9b9b;
   width: 75%;
@@ -89,4 +93,12 @@ li{
   border-width: 6px;
     border: solid #91ADB4 1px;
     border-radius: 5px;
+}
+.linkedin h5{
+  align-items: right;
+}
+i{
+  align-items: left;
+  margin-left: 5px;
+  box-shadow: 5px 5px 15px -5px #000000;
 }
